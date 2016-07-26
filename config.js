@@ -4,14 +4,14 @@ module.exports = {
     production: {
         url: process.env.HEROKU_URL,
         mail: {
-            transport: 'SMTP',
-            options: {
-                service: 'Mailgun',
-                auth: {
-                    user: process.env.MAILGUN_SMTP_LOGIN,
-                    pass: process.env.MAILGUN_SMTP_PASSWORD
-                }
-            }
+            /* transport: 'SMTP', */
+            /* options: { */
+            /*     service: 'Mailgun', */
+            /*     auth: { */
+            /*         user: process.env.MAILGUN_SMTP_LOGIN, */
+            /*         pass: process.env.MAILGUN_SMTP_PASSWORD */
+            /*     } */
+            /* } */
         },
         database: {
             client: 'postgres',
