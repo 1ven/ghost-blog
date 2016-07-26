@@ -1,5 +1,7 @@
 var path = require('path');
 
+console.log(process.env.HEROKU_URL, process.env.DATABASE_URL, process.env.PORT);
+
 module.exports = {
     production: {
         url: process.env.HEROKU_URL,
